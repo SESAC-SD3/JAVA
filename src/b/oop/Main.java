@@ -35,19 +35,5 @@ public class Main {
         System.out.println(d1.name);
         System.out.println(d1.age);
 
-
-
-        BA ba = new BA();
-        ba.balance = 10000;
-
-        ba.balance = 99999;
-        ba.deposit(99999);
-
-
-
-
-
-
-
     }
 }

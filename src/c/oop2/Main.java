@@ -5,7 +5,11 @@ public class Main {
         Calulator cal = new Calulator();
 
         int result = cal.add(2, 3);
+        int result2 = cal.add(4, 5, 6);
+        int result3 = cal.add(1, 2, 3, 4, 5);
         System.out.println(result);
+        System.out.println(result2);
+        System.out.println(result3);
 
         Person person = new Person();
         Person person2 = new Person("Kim", 20);

@@ -1,5 +1,7 @@
 package c.oop2;
 
+import java.util.Arrays;
+
 class Sample {
     int value;
 }
@@ -9,6 +11,20 @@ public class Calulator {
     int add (int a, int b) {
         return a + b;
     }
+
+    int add (int a, int b, int c) {
+        return a + b + c;
+    }
+
+    int add (int... numbers) {
+        // System.out.println("Adding " + Arrays.toString(numbers));
+        int sum = 0;
+        for (int number : numbers) {
+            sum += number;
+        }
+        return sum;
+    }
+
     // 반환값이 없는경우
     void printResult(int result) {
         System.out.println(result);

@@ -20,5 +20,12 @@ public class Main {
         Rectangle r1 = new Rectangle();
         Rectangle r2 = new Rectangle(10);
         Rectangle r3 = new Rectangle(20, 30);
+
+        User u = new User("홍길동", 30);
+        // u.name = "김길동";
+        u.setName("김길동");
+
+
+
     }
 }

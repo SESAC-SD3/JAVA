@@ -7,7 +7,7 @@ public class AccessModifier {
         System.out.println(pc.getValue());
 
         // private
-        pc.value = 100;
+        //pc.value = 100;
         // public
         pc.value2 = "test msg";
     }

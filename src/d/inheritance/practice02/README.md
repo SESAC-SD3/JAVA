@@ -26,7 +26,7 @@
 - `Comedy` 클래스: `humorStyle` 필드 추가 (유머 스타일)
 - `Drama` 클래스: `theme` 필드 추가 (주제)
 - 각 클래스는 `displayInfo()` 오버라이딩하여 고유한 정보 출력
-- `instanceof`를 사용하여 타입별로 다른 처리
+
 
 **테스트 코드:**
 ```java
